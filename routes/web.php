@@ -16,3 +16,5 @@ Auth::routes();
 
 
 Route::resource('/', 'IndexResourceController');
+
+Route::get('/single',['uses'=>'SingleController@execute','as'=>'single']);
