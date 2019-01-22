@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Teamplate;
 
 class IndexResourceController extends Controller
 {
@@ -13,7 +14,9 @@ class IndexResourceController extends Controller
      */
     public function index()
     {
-        return view('site.index');
+        $templates = Teamplate::paginate(1);
+
+        return view('site.index')->with(['templates'=> $templates]);
     }
 
     /**
