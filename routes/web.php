@@ -21,3 +21,4 @@ Route::get('/single',['uses'=>'SingleController@execute','as'=>'single']);
 
 Route::get('/cart',['uses'=>'CartController@execute','as'=>'cart']);
 
+Route::get('/contact',['uses'=>'ContactController@execute','as'=>'contact']);
