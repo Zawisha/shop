@@ -18,6 +18,9 @@ Auth::routes();
 Route::resource('/', 'IndexResourceController');
 
 Route::get('/single/{id}',['uses'=>'SingleController@execute','as'=>'single']);
+Route::post('/single',['uses'=>'SingleController@ajaxreq','as'=>'ajaxreq']);
+
+
 
 Route::get('/cart',['uses'=>'CartController@execute','as'=>'cart']);
 
