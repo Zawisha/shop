@@ -17,7 +17,7 @@ Auth::routes();
 
 Route::resource('/', 'IndexResourceController');
 
-Route::get('/single',['uses'=>'SingleController@execute','as'=>'single']);
+Route::get('/single/{id}',['uses'=>'SingleController@execute','as'=>'single']);
 
 Route::get('/cart',['uses'=>'CartController@execute','as'=>'cart']);
 
