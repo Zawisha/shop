@@ -30,12 +30,20 @@ class SingleController extends Controller
     }
 
     public function ajaxreq(Request $request){
-//        $teamplate_like =$request->name;
+        //$teamplate_like =$request->hidden_number;
 
-        $teamplate_like = Teamplate::where('title', 'LIKE', '%' . $request->name . '%')->get();
+        $teamplate_like = Teamplate::where('title', 'LIKE', '%' . $request->name . '%')->offset($request->hidden_number*4)->limit(4)->get();
 //        $data = '123';
         return $teamplate_like;
     }
+
+
+    //получаю количество записей в бд
+    public function ajaxcount(Request $request){
+        $teamplate_like = Teamplate::where('title', 'LIKE', '%' . $request->name . '%')->get();
+        return $teamplate_like;
+    }
+
 
 
 }

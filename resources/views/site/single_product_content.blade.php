@@ -9,7 +9,13 @@
                 {!! Form::text('search_text','',['id' => 'name']) !!}<br>
                 {{--{!! Form::submit('поиск') !!}--}}
                 <meta name="csrf-token" content="{{ csrf_token() }}">
-                {!!  Form::button('Replace Message',['onClick'=>'getMessage()']);!!}
+                <input type="hidden" name="hid_number" id="hidden_number" value="0">
+                <input type="hidden" name="max_hid_number" id="max_hidden_number" value="0">
+                {!!  Form::button('Replace Message',['onClick'=>'get_count_message()']);!!}
+                {!!  Form::button('next',['id' => 'next','onClick'=>'nextMessage()']);!!}
+                {!!  Form::button('prev',['id' => 'prev','onClick'=>'prevMessage()']);!!}
+
+
                 {!! Form::close() !!}
 
             </div>
@@ -86,21 +92,25 @@
 </div>
 <script>
 
+
+
+
     function getMessage() {
 
         $.ajax({
             url: '/single',
             method: 'post',
-            data: { name: jQuery('#name').val()},
+            data: { name: jQuery('#name').val(),hidden_number: jQuery('#hidden_number').val()},
+
             headers:
                 {
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
                 },
             success: function (response) {
 
-                console.log(response);
+              //  console.log(response);
                 response.forEach(function(entry) {
-                    console.log(entry);
+                  //  console.log(entry);
 
                 // var newItem = document.createElement("LI");
                 var newItem = document.createElement("LI");
@@ -121,8 +131,172 @@
                 list.insertBefore(newimg, list.childNodes[2]);
 
             });
-
+           // document.getElementById("hidden_number").value++;
             }
         })
     }
+
+    function nextMessage() {
+        document.getElementById("hidden_number").value++;
+        delelem();
+        getMessage();
+
+        if((document.getElementById("hidden_number").value)==(document.getElementById("max_hidden_number").value)-1)
+        {
+            var elem_next = document.getElementById("next");
+            elem_next.style.display = 'none';
+        }
+        if((document.getElementById("hidden_number").value)!=0)
+        {
+            var elem_prev = document.getElementById("prev");
+            elem_prev.style.display = 'inline-block';
+        }
+
+
+
+    }
+
+    function prevMessage() {
+        if(        document.getElementById("hidden_number").value != 0) {
+            document.getElementById("hidden_number").value--;
+            delelem();
+            getMessage();
+        }
+        if((document.getElementById("hidden_number").value)!=(document.getElementById("max_hidden_number").value)-1)
+        {
+            var elem_next = document.getElementById("next");
+            elem_next.style.display = 'inline-block';
+        }
+        if((document.getElementById("hidden_number").value)==0)
+        {
+            var elem_prev = document.getElementById("prev");
+            elem_prev.style.display = 'none';
+        }
+
+
+    }
+
+    function delelem() {
+      var mylist=  document.getElementById("myList");
+
+      //  var elem = mylist.getElementsByTagName("li");
+  //   console.log(elem);
+        while (mylist.firstChild) {
+            mylist.removeChild(mylist.firstChild);
+        }
+    }
+
+    function countelem() {
+
+            $.ajax({
+                url: '/count_elem',
+                method: 'post',
+                data: {name: jQuery('#name').val()},
+                headers:
+                    {
+                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                    },
+                success: function (response) {
+
+                    var max_number_trunc = response.length;
+                    //выделяю целую часть
+                    max_number_trunc = max_number_trunc / 4;
+                    document.getElementById("max_hidden_number").value=Math.ceil(max_number_trunc);
+                    console.log(document.getElementById("max_hidden_number").value);
+                    if((document.getElementById("max_hidden_number").value)!=(0 || 1))
+                    {
+                        var elem_next = document.getElementById("next");
+                        elem_next.style.display = 'inline-block';
+                    }
+                }
+            })
+
+        }
+
+        //нажатие на кнопку
+        function get_count_message() {
+            countelem();
+            getMessage();
+        }
+
 </script>
+
+<style>
+
+
+
+
+    #next  {
+        text-decoration: none;
+        outline: none;
+        display: inline-block;
+        padding: 10px 30px;
+        margin: 10px 20px;
+        position: relative;
+        overflow: hidden;
+        border: 2px solid #fe6637;
+        border-radius: 8px;
+        font-family: 'Montserrat', sans-serif;
+        color: #fe6637;
+        transition: .2s ease-in-out;
+    }
+    #next:before {
+        content: "";
+        background: linear-gradient(90deg, rgba(255,255,255,.1), rgba(255,255,255,.5));
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        top: -8px;
+        left: -75px;
+        transform: skewX(-45deg);
+    }
+    #next:hover {
+        background: #fe6637;
+        color: #fff;
+    }
+    #next:hover:before {
+        left: 150px;
+        transition: .5s ease-in-out;
+    }
+
+    #prev {
+        text-decoration: none;
+        outline: none;
+        display: inline-block;
+        padding: 10px 30px;
+        margin: 10px 20px;
+        position: relative;
+        overflow: hidden;
+        border: 2px solid #fe6637;
+        border-radius: 8px;
+        font-family: 'Montserrat', sans-serif;
+        color: #fe6637;
+        transition: .2s ease-in-out;
+    }
+    #prev:before {
+        content: "";
+        background: linear-gradient(90deg, rgba(255,255,255,.1), rgba(255,255,255,.5));
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        top: -8px;
+        left: -75px;
+        transform: skewX(-45deg);
+    }
+    #prev:hover {
+        background: #fe6637;
+        color: #fff;
+    }
+    #prev:hover:before {
+        left: 150px;
+        transition: .5s ease-in-out;
+    }
+
+    #next {
+        display: none;
+    }
+    #prev {
+        display: none;
+    }
+
+</style>

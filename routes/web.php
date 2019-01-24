@@ -19,7 +19,7 @@ Route::resource('/', 'IndexResourceController');
 
 Route::get('/single/{id}',['uses'=>'SingleController@execute','as'=>'single']);
 Route::post('/single',['uses'=>'SingleController@ajaxreq','as'=>'ajaxreq']);
-
+Route::post('/count_elem',['uses'=>'SingleController@ajaxcount','as'=>'ajaxcount']);
 
 
 Route::get('/cart',['uses'=>'CartController@execute','as'=>'cart']);
