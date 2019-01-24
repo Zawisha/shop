@@ -126,7 +126,7 @@
                 list.insertBefore(newItem, list.childNodes[1]);
 
                 var newimg=document.createElement("img");
-                newimg.setAttribute("src","/assets/images/1.png");
+                newimg.setAttribute("src","/assets/images/"+entry['img']);
                 var list = document.getElementById("myList");
                 list.insertBefore(newimg, list.childNodes[2]);
 
@@ -202,7 +202,6 @@
                     //выделяю целую часть
                     max_number_trunc = max_number_trunc / 4;
                     document.getElementById("max_hidden_number").value=Math.ceil(max_number_trunc);
-                    console.log(document.getElementById("max_hidden_number").value);
                     if((document.getElementById("max_hidden_number").value)!=(0 || 1))
                     {
                         var elem_next = document.getElementById("next");
@@ -215,6 +214,8 @@
 
         //нажатие на кнопку
         function get_count_message() {
+            document.getElementById("hidden_number").value = 0;
+            delelem();
             countelem();
             getMessage();
         }
