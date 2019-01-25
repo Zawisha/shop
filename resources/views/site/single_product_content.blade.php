@@ -43,7 +43,7 @@
                     <div class="col-sm-6">
                         <div class="product-images">
                             <div class="product-main-img">
-                                <img src="{{asset('assets/images/'.$templates->img)}}" alt="photo">
+                                <img id="mainImage" src="{{asset('assets/images/'.$templates->img)}}" alt="photo">
                             </div>
                         </div>
                     </div>
@@ -52,7 +52,7 @@
                         <div class="product-inner">
                             <h2 class="product-name">{{$templates->title}}</h2>
                             <div class="product-inner-price">
-                                <ins>{{ $templates->price }}$</ins>
+                                {{ $templates->price }}$
                             </div>
 
                             <form action="" class="cart">
@@ -113,15 +113,18 @@
                   //  console.log(entry);
 
                 // var newItem = document.createElement("LI");
-                var newItem = document.createElement("LI");
+                var newItem0 = document.createElement("LI");
+                  //  newItem.append(' <a href="' + '1234' + '" title="' + '123' + '">Read more</a>');
                 var textnode = document.createTextNode(entry['price']);
-                newItem.appendChild(textnode);
+                newItem0.appendChild(textnode);
                 var list = document.getElementById("myList");
-                list.insertBefore(newItem, list.childNodes[0]);
+                list.insertBefore(newItem0, list.childNodes[0]);
 
                 var newItem = document.createElement("LI");
                 var textnode = document.createTextNode(entry['title']);
-                newItem.appendChild(textnode);
+                    newItem.setAttribute("class",'title_id');
+
+                    newItem.appendChild(textnode);
                 var list = document.getElementById("myList");
                 list.insertBefore(newItem, list.childNodes[1]);
 
@@ -132,6 +135,16 @@
 
             });
            // document.getElementById("hidden_number").value++;
+
+
+                var all = document.getElementsByClassName('title_id');
+                for(var i=0;i<all.length;i++)
+                    all[i].onclick=function(){
+
+                        refreshtem(this.innerHTML);
+                       // this.innerHTML = 'New Text';
+                    }
+
             }
         })
     }
@@ -218,7 +231,37 @@
             delelem();
             countelem();
             getMessage();
+
         }
+
+   function refreshtem( name_template) {
+
+       $.ajax({
+           url: '/refresh_template',
+           method: 'post',
+           data: {name: name_template},
+           headers:
+               {
+                   'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+               },
+           success: function (response) {
+
+               //главный шаблон страницы
+
+               var main_img = document.getElementById('mainImage');
+               main_img.setAttribute("src","/assets/images/"+response[0]['img']);
+
+               var product_name = document.getElementsByClassName('product-name');
+               product_name[0].innerHTML = response[0]['title'];
+
+               var product_price = document.getElementsByClassName('product-inner-price');
+               product_price[0].innerHTML = response[0]['price']+'$';
+// console.log(response);
+           }
+       })
+
+           }
+
 
 </script>
 

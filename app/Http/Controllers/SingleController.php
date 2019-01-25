@@ -44,6 +44,12 @@ class SingleController extends Controller
         return $teamplate_like;
     }
 
+    public function refresh(Request $request)
+    {
+        $template = Teamplate::where('title','=',$request->name)->get();
+        return $template;
+    }
+
 
 
 }
