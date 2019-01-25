@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 use App\Teamplate;
+use App\Category;
+
 
 use Illuminate\Http\Request;
 
@@ -47,9 +49,18 @@ class SingleController extends Controller
     public function refresh(Request $request)
     {
         $template = Teamplate::where('title','=',$request->name)->get();
+        //$template = Teamplate::with('categories')->where('title','=',$request->name)->get();
         return $template;
     }
 
+    public function testrefresh()
+    {
+
+
+//вытаскиваю с отношениями
+        $template = Teamplate::with('categories')->where('title','=','feast-master')->get();
+        dd($template);
+    }
 
 
 }

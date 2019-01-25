@@ -4,6 +4,7 @@
     <list default="true" id="7f101780-0808-4649-96ce-58c1972a2eda" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SingleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SingleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Teamplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Teamplate.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/site/single_product_content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/single_product_content.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -22,8 +23,8 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" column="49" lean-forward="true" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+            <state relative-caret-position="238">
+              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -31,29 +32,38 @@
       <file leaf-file-name="single_product_content.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/site/single_product_content.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="70" column="26" lean-forward="true" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+            <state relative-caret-position="202">
+              <caret line="252" selection-start-line="252" selection-end-line="252" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2019_01_22_063930_create_templates_table.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_22_063930_create_templates_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SingleController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SingleController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SingleController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="49" column="25" lean-forward="true" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+            <state relative-caret-position="270">
+              <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
               <folding>
                 <element signature="e#39#57#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Teamplate.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Teamplate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Category.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -63,7 +73,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>withFacades()</find>
-      <find />
+      <find>Recent Posts</find>
       <find>product-name</find>
     </findStrings>
     <dirStrings>
@@ -73,15 +83,6 @@
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="php artisan make:migration DeleteColumnAlias" />
-      <command text="php artisan migrate" />
-      <command text="composer require doctrine/dbal" />
-      <command text="composer update" />
-      <command text="php artisan migrate" />
-      <command text="php artisan make:migration DeleteColumnTemplateAlias" />
-      <command text="php artisan migrate" />
-      <command text="git add ." />
-      <command text="php artisan make:model Teamplate" />
       <command text="ljltkf. njkmrj djn" />
       <command text="git add ." />
       <command text="git commit -m &quot;add index_content&quot;" />
@@ -98,6 +99,15 @@
       <command text="git add ." />
       <command text="git commit -m &quot;edit ajax next prev&quot;" />
       <command text="git push shop master" />
+      <command text="git add ." />
+      <command text="git commit -m &quot;edit ajax refresh&quot;" />
+      <command text="git push shop master" />
+      <command text="php artisan make:model Category -m" />
+      <command text="php artisan make:migration create_templates_article_table" />
+      <command text="php artisan migrate" />
+      <command text="php artisan migrate:rollback" />
+      <command text="php artisan make:migration create_templates_categories_table" />
+      <command text="php artisan migrate" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
@@ -131,14 +141,18 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/database/migrations/2019_01_22_144643_delete_column_alias.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_01_22_150933_delete_column_template_alias.php" />
-        <option value="$PROJECT_DIR$/app/Teamplate.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/IndexResourceController.php" />
         <option value="$PROJECT_DIR$/resources/views/site/pagination.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/site/index_content.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/shop.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_01_25_173434_create_categories_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_01_25_173945_create_templates_article_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_01_25_175648_create_templates_categories_table.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/SingleController.php" />
         <option value="$PROJECT_DIR$/resources/views/site/single_product_content.blade.php" />
+        <option value="$PROJECT_DIR$/app/Teamplate.php" />
+        <option value="$PROJECT_DIR$/app/Category.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SingleController.php" />
       </list>
     </option>
   </component>
@@ -344,15 +358,15 @@
       <workItem from="1548127702306" duration="21305000" />
       <workItem from="1548214938159" duration="16210000" />
       <workItem from="1548301998581" duration="15772000" />
-      <workItem from="1548389380404" duration="12163000" />
+      <workItem from="1548389380404" duration="19917000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73369000" />
+    <option name="totallyTimeSpent" value="81123000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="87" width="1456" height="916" extended-state="7" />
+    <frame x="1912" y="87" width="1456" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -627,13 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Teamplate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/site/single_product.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -676,34 +683,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_22_063930_create_templates_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="49" lean-forward="true" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+        <state relative-caret-position="17">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SingleController.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_25_173945_create_templates_article_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="49" column="25" lean-forward="true" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
-          <folding>
-            <element signature="e#39#57#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="20" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_25_175648_create_templates_categories_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_25_173434_create_categories_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/site/single_product_content.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="70" column="26" lean-forward="true" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+        <state relative-caret-position="202">
+          <caret line="252" selection-start-line="252" selection-end-line="252" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_22_063930_create_templates_table.php">
+    <entry file="file://$PROJECT_DIR$/app/Teamplate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SingleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+          <folding>
+            <element signature="e#39#57#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

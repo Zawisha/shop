@@ -247,7 +247,7 @@
            success: function (response) {
 
                //главный шаблон страницы
-
+               // console.log(response);
                var main_img = document.getElementById('mainImage');
                main_img.setAttribute("src","/assets/images/"+response[0]['img']);
 
@@ -256,7 +256,7 @@
 
                var product_price = document.getElementsByClassName('product-inner-price');
                product_price[0].innerHTML = response[0]['price']+'$';
-// console.log(response);
+
            }
        })
 
