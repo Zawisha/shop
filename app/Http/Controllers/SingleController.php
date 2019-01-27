@@ -48,19 +48,57 @@ class SingleController extends Controller
 
     public function refresh(Request $request)
     {
-        $template = Teamplate::where('title','=',$request->name)->get();
-        //$template = Teamplate::with('categories')->where('title','=',$request->name)->get();
+       // $template = Teamplate::where('title','=',$request->name)->get();
+        $template = Teamplate::with('categories')->where('title','=',$request->name)->get();
         return $template;
     }
 
     public function testrefresh()
     {
-
-
 //вытаскиваю с отношениями
-        $template = Teamplate::with('categories')->where('title','=','feast-master')->get();
-        dd($template);
+
+        $category = Category::with('template') ->where('id' ,'=' ,'9') ->get();
+            $cat = $category[0]->template;
+        dd($cat);
     }
+
+
+
+
+    public function similar(Request $request){
+        //выборка похожих по категориям
+
+        $cat=[];
+    foreach ($request->name as $req)
+{
+    $category = Category::with('template') ->where('id' ,'=' ,$req['id']) ->get();
+    $cat[]=$category[0]->template;
+}
+
+$return_cat =[];
+    $stop = '0';
+
+    foreach ($cat as $ret_cat) {
+        foreach ($ret_cat as $r_cat){
+            $return_cat[] =$r_cat;
+            if(count($return_cat)=='3')
+            {
+                $stop='1';
+                break;
+            }
+
+        }
+        if($stop=='1')
+        {
+            break;
+        }
+    }
+
+
+        return  $return_cat;
+    }
+
+
 
 
 }

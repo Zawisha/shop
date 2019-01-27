@@ -59,7 +59,7 @@
                                 <button class="add_to_cart_button" type="submit">В корзину</button>
                             </form>
                             <div class="product-inner-category">
-                                <p>Category: <a href="">Summer</a>. Tags: <a href="">awesome</a>, <a href="">best</a>, <a href="">sale</a>, <a href="">shoes</a>. </p>
+                                Категории: <a href="">awesome</a>, <a href="">best</a>, <a href="">sale</a>, <a href="">shoes</a>.
                             </div>
                         </div>
                     </div>
@@ -69,19 +69,11 @@
                     <h2 class="related-products-title">Похожие шаблоны</h2>
                     <div class="related-products-carousel">
                         <div class="single-product">
-                            <div class="product-f-image">
-                                <img src="img/product-1.jpg" alt="">
-                                <div class="product-hover">
-                                    <a href="" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                    <a href="" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                </div>
+                            <div class="product-f-image ">
+                                <ul id="similar_template_img">
+                                </ul>
                             </div>
 
-                            <h2><a href="">Sony Smart TV - 2015</a></h2>
-
-                            <div class="product-carousel-price">
-                                <ins>$700.00</ins> <del>$100.00</del>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -191,13 +183,20 @@
 
     function delelem() {
       var mylist=  document.getElementById("myList");
-
-      //  var elem = mylist.getElementsByTagName("li");
-  //   console.log(elem);
         while (mylist.firstChild) {
             mylist.removeChild(mylist.firstChild);
         }
     }
+
+    function del_similar_elem() {
+
+        var mylist=  document.getElementById("similar_template_img");
+        while (mylist.firstChild) {
+            mylist.removeChild(mylist.firstChild);
+        }
+
+    }
+
 
     function countelem() {
 
@@ -247,7 +246,7 @@
            success: function (response) {
 
                //главный шаблон страницы
-               // console.log(response);
+               //  console.log(response);
                var main_img = document.getElementById('mainImage');
                main_img.setAttribute("src","/assets/images/"+response[0]['img']);
 
@@ -257,10 +256,87 @@
                var product_price = document.getElementsByClassName('product-inner-price');
                product_price[0].innerHTML = response[0]['price']+'$';
 
+                var category_all = 'Категории:';
+
+
+
+               response[0]['categories'].forEach(function(category) {
+
+                   category_all +=' '+category['title']+',';
+
+               });
+               category_all = category_all.slice(0,-1);
+               var categories = document.getElementsByClassName('product-inner-category');
+               categories[0].innerHTML = category_all;
+
+               //передаю массив с объектами категорий
+              // console.log(response[0]['categories']);
+               similar_template(response[0]['categories']);
+
            }
        })
 
            }
+
+
+   //похожие шаблоны
+function similar_template(category_template) {
+    $.ajax({
+        url: '/similar_template',
+        method: 'post',
+        data: {name: category_template},
+        headers:
+            {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            },
+        success: function (response) {
+
+           del_similar_elem();
+
+            response.forEach(function(entry) {
+
+                var newimg=document.createElement("img");
+                newimg.setAttribute("src","/assets/images/"+entry['img']);
+                var list = document.getElementById("similar_template_img");
+                list.insertBefore(newimg, list.childNodes[0]);
+
+
+
+
+                var newItem0 = document.createElement("LI");
+                newItem0.setAttribute("class",'similar_title_id');
+                var textnode = document.createTextNode(entry['title']);
+                newItem0.appendChild(textnode);
+                var sim_title = document.getElementById("similar_template_img");
+                sim_title.insertBefore( newItem0, sim_title.childNodes[0]);
+
+                var newItem = document.createElement("LI");
+                var textnode = document.createTextNode(entry['price']);
+                newItem.appendChild(textnode);
+                var sim_title = document.getElementById("similar_template_img");
+                sim_title.insertBefore(newItem,  sim_title.childNodes[0]);
+
+
+
+            })
+
+            var all = document.getElementsByClassName('similar_title_id');
+            for(var i=0;i<all.length;i++)
+                all[i].onclick=function(){
+
+                    refreshtem(this.innerHTML);
+                    // this.innerHTML = 'New Text';
+                }
+
+        }
+
+
+
+
+
+    })
+}
+           
 
 
 </script>

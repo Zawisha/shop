@@ -14,7 +14,7 @@ class Category extends Model
         public function template()
     {
 
-    return $this->belongsToMany('App\Template','templates_categories','category_id','template_id');
+    return $this->belongsToMany('App\Teamplate','templates_categories','category_id','template_id');
 
     }
 
