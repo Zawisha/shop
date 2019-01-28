@@ -28,3 +28,6 @@ Route::get('/refresh_template',['uses'=>'SingleController@testrefresh','as'=>'te
 Route::get('/cart',['uses'=>'CartController@execute','as'=>'cart']);
 
 Route::get('/contact',['uses'=>'ContactController@execute','as'=>'contact']);
+
+Route::get('/cart',['uses'=>'CartController@execute','as'=>'cart']);
+Route::post('/add_to_cart',['uses'=>'CartController@add_one_more','as'=>'cart']);
