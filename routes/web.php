@@ -31,3 +31,4 @@ Route::get('/contact',['uses'=>'ContactController@execute','as'=>'contact']);
 
 Route::get('/cart',['uses'=>'CartController@execute','as'=>'cart']);
 Route::post('/add_to_cart',['uses'=>'CartController@add_one_more','as'=>'cart']);
+Route::post('/delete_from_cart',['uses'=>'CartController@delete_from_cart','as'=>'delete_item']);

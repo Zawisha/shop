@@ -65,32 +65,15 @@
             success: function (response) {
 
                   console.log(response);
-                // response.forEach(function(entry) {
-                    //  console.log(entry);
 
-                    // // var newItem = document.createElement("LI");
-                    // var newItem0 = document.createElement("LI");
-                    // //  newItem.append(' <a href="' + '1234' + '" title="' + '123' + '">Read more</a>');
-                    // var textnode = document.createTextNode(entry['price']);
-                    // newItem0.appendChild(textnode);
-                    // var list = document.getElementById("myList");
-                    // list.insertBefore(newItem0, list.childNodes[0]);
-                    //
-                    // var newItem = document.createElement("LI");
-                    // var textnode = document.createTextNode(entry['title']);
-                    // newItem.setAttribute("class",'title_id');
-                    //
-                    // newItem.appendChild(textnode);
-                    // var list = document.getElementById("myList");
-                    // list.insertBefore(newItem, list.childNodes[1]);
-                    //
-                    // var newimg=document.createElement("img");
-                    // newimg.setAttribute("src","/assets/images/"+entry['img']);
-                    // var list = document.getElementById("myList");
-                    // list.insertBefore(newimg, list.childNodes[2]);
 
-              //  });
-                // document.getElementById("hidden_number").value++;
+                    var cart_price = document.getElementsByClassName('cart-amunt');
+                    cart_price[0].innerHTML ='$ '+ response[1];
+
+                   var cart_count = document.getElementsByClassName('product-count');
+                   cart_count[0].innerHTML = response[0];
+
+
 
             }
         })

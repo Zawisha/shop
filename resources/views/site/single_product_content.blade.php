@@ -55,9 +55,26 @@
                                 {{ $templates->price }}$
                             </div>
 
-                            <form action="" class="cart">
-                                <button class="add_to_cart_button" type="submit">В корзину</button>
-                            </form>
+
+
+                            <div class="product-option-shop">
+
+                                {!! Form::open(['url'=>route('single','1'),'method'=>'POST',  'name' => 'validateform']) !!}
+
+                                <meta name="csrf-token" content="{{ csrf_token() }}">
+
+                                <input type="hidden" name="hid_id_title" id="hid_id_title" value={{$templates->id}}>
+
+                                {!!  Form::button('В корзину',['class' => 'add_to_cart_button','onClick'=>'add_to_Cart() ']);!!}
+
+
+                                {!! Form::close() !!}
+
+                            </div>
+
+
+
+
                             <div class="product-inner-category">
                                 Категории: <a href="">awesome</a>, <a href="">best</a>, <a href="">sale</a>, <a href="">shoes</a>.
                             </div>
@@ -256,6 +273,8 @@
                var product_price = document.getElementsByClassName('product-inner-price');
                product_price[0].innerHTML = response[0]['price']+'$';
 
+               //меняю цену в скрытом поле
+               document.getElementById("hid_id_title").value =response[0]['id'];
                 var category_all = 'Категории:';
 
 
@@ -271,6 +290,8 @@
 
                //передаю массив с объектами категорий
               // console.log(response[0]['categories']);
+
+
                similar_template(response[0]['categories']);
 
            }
@@ -336,6 +357,37 @@ function similar_template(category_template) {
 
     })
 }
+
+    function add_to_Cart() {
+
+     var id_title =document.getElementById("hid_id_title").value;
+
+        $.ajax({
+            url: '/add_to_cart',
+            method: 'post',
+            data: { name: id_title},
+
+            headers:
+                {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                },
+            success: function (response) {
+
+                // console.log(response);
+
+                var cart_price = document.getElementsByClassName('cart-amunt');
+                cart_price[0].innerHTML ='$ '+ response[1];
+
+                var cart_count = document.getElementsByClassName('product-count');
+                cart_count[0].innerHTML = response[0];
+
+
+
+            }
+        })
+    }
+
+
            
 
 
