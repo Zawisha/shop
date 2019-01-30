@@ -65,7 +65,32 @@
 
 <script>
 
-    function add_to_Cart(title) {
+
+    document.addEventListener("DOMContentLoaded", function(){
+<?php
+
+    foreach ($cart as $cart_id)
+
+    {
+        ?>
+
+        var arr = "<?php echo $cart_id ?>";
+
+        var sim_title = document.getElementById(arr);
+        sim_title.value='Добавлено';
+        sim_title.innerHTML ='Добавлено';
+        sim_title.disabled = true;
+        <?php
+    }
+
+    ?>
+
+    });
+
+
+
+
+        function add_to_Cart(title) {
         var id_title=title;
       //  console.log(document.getElementById(id_title).value);
       //   var sim_title = document.getElementById(id_title);
@@ -94,6 +119,7 @@
                 var sim_title = document.getElementById(id_title);
                 sim_title.value='Добавлено';
                 sim_title.innerHTML ='Добавлено';
+                sim_title.disabled = true;
 
 
             }

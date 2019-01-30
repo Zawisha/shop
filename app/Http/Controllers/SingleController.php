@@ -12,7 +12,7 @@ class SingleController extends Controller
     public function execute($id, Request $request)
     {
 
-
+//вытащить отдельно категории и вщять код из функции similar
 
       //  if($request ->isMethod('post')){
 
@@ -64,7 +64,7 @@ class SingleController extends Controller
 
 
 
-
+// вернет в вид шаблоны по категориям
     public function similar(Request $request){
         //выборка похожих по категориям
 

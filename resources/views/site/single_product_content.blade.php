@@ -101,7 +101,12 @@
 </div>
 <script>
 
+    //загружаю похожие шаблоны при загрузке страницы
+    document.addEventListener("DOMContentLoaded", function(){
+        var template_index_title = "<?php echo $templates->title ?>";
+        refreshtem(template_index_title);
 
+    });
 
 
     function getMessage() {
@@ -289,7 +294,7 @@
                categories[0].innerHTML = category_all;
 
                //передаю массив с объектами категорий
-              // console.log(response[0]['categories']);
+             // console.log(response[0]['categories']);
 
 
                similar_template(response[0]['categories']);
@@ -388,7 +393,7 @@ function similar_template(category_template) {
     }
 
 
-           
+
 
 
 </script>

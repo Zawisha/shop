@@ -16,6 +16,15 @@ class IndexResourceController extends Controller
      */
     public function index(Request $request)
     {
+        $cart_id_to_db = [];
+
+        if (Session::has('cart_list')) {
+            $cart = Session::get('cart_list');
+            foreach ($cart as $cart_id) {
+                $cart_id_to_db[] = $cart_id['id'];
+            }
+            $cart_id_to_db = array_unique($cart_id_to_db);
+        }
 
 
         $category = Category::all();
@@ -34,16 +43,17 @@ class IndexResourceController extends Controller
             $category_with_templates = Category::with('template')->where('id', '=', $req_find)->get();
             $cat = $category_with_templates[0]->template()->paginate(3);
 
-            return view('site.index')->with(['templates' => $cat, 'category' => $category]);
+            return view('site.index')->with(['templates' => $cat, 'category' => $category,'cart'=>$cart_id_to_db]);
         }
         else
         {
             $templates = Teamplate::paginate(4);
-            return view('site.index')->with(['templates' => $templates, 'category' => $category]);
+            return view('site.index')->with(['templates' => $templates, 'category' => $category,'cart'=>$cart_id_to_db]);
         }
 
 
     }
+
 
     /**
      * Show the form for creating a new resource.
