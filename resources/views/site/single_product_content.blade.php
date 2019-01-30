@@ -6,12 +6,13 @@
         <div class="col-md-4">
             <div class="single-sidebar">
                 {!! Form::open(['url'=>route('single','1'),'method'=>'POST',  'name' => 'validateform']) !!}
-                {!! Form::text('search_text','',['id' => 'name']) !!}<br>
+
+                {!! Form::text('search_text','',['id' => 'name','placeholder' => 'Поиск']) !!}<br>
                 {{--{!! Form::submit('поиск') !!}--}}
                 <meta name="csrf-token" content="{{ csrf_token() }}">
                 <input type="hidden" name="hid_number" id="hidden_number" value="0">
                 <input type="hidden" name="max_hid_number" id="max_hidden_number" value="0">
-                {!!  Form::button('Replace Message',['onClick'=>'get_count_message()']);!!}
+                {!!  Form::button('Найти',['onClick'=>'get_count_message()']);!!}
                 {!!  Form::button('next',['id' => 'next','onClick'=>'nextMessage()']);!!}
                 {!!  Form::button('prev',['id' => 'prev','onClick'=>'prevMessage()']);!!}
 
@@ -20,17 +21,17 @@
 
             </div>
 
+            <div class="alert alert-info">
+             Совпадений не найдено
+            </div>
+
             <div class="single-sidebar">
                 <h2 class="sidebar-title">Шаблоны</h2>
 
                 <div class="thubmnail-recent">
                     <ul id="myList">
                     </ul>
-                    {{--<img src="img/product-thumb-1.jpg" class="recent-thumb" alt="">--}}
-                    {{--<h2><a href="">Sony Smart TV - 2015</a></h2>--}}
-                    {{--<div class="product-sidebar-price">--}}
-                        {{--<ins>$700.00</ins>--}}
-                    {{--</div>--}}
+
                 </div>
 
             </div>
@@ -108,8 +109,16 @@
 
     });
 
+    function hide_alert() {
+        $(".alert-info").hide(3000);
+    }
 
     function getMessage() {
+
+        var elem_next = document.getElementById("next");
+        elem_next.style.display = 'none';
+        var elem_prev = document.getElementById("prev");
+        elem_prev.style.display = 'none';
 
         $.ajax({
             url: '/single',
@@ -121,8 +130,15 @@
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
                 },
             success: function (response) {
+               // console.log(response);
+                //если пустой массив
+                if(response.length==0)
+                {
+                    var alert_res = document.getElementsByClassName('alert-info');
+                    alert_res[0].style.display = 'inline-block';
+                    setTimeout(hide_alert,3000);
+                }
 
-              //  console.log(response);
                 response.forEach(function(entry) {
                   //  console.log(entry);
 
@@ -473,6 +489,10 @@ function similar_template(category_template) {
         display: none;
     }
     #prev {
+        display: none;
+    }
+
+    .alert-info {
         display: none;
     }
 

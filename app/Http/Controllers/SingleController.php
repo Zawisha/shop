@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use App\Teamplate;
 use App\Category;
+use Illuminate\Support\Facades\Validator;
 
 
 use Illuminate\Http\Request;
@@ -34,16 +35,41 @@ class SingleController extends Controller
     public function ajaxreq(Request $request){
         //$teamplate_like =$request->hidden_number;
 
-        $teamplate_like = Teamplate::where('title', 'LIKE', '%' . $request->name . '%')->offset($request->hidden_number*4)->limit(4)->get();
-//        $data = '123';
-        return $teamplate_like;
+
+    //    $teamplate_like = Teamplate::where('title', 'LIKE', '%' . $request->name . '%')->offset($request->hidden_number*4)->limit(4)->get();
+
+        $category_with_templates = Category::with('template')->where('title', 'LIKE', '%' . $request->name . '%')->get();
+        $cat = $category_with_templates[0]->template()->get();
+        $return_cat=[];
+
+        $start_count = ($request->hidden_number)*4;
+        $end_count = ($request->hidden_number*4)+3;
+//длина массива
+        $number_arr  = count($cat)-1;
+        if($end_count >= $number_arr)
+        {
+            $end_count = $number_arr;
+        }
+
+        for ($i = $start_count; $i <= $end_count; $i++) {
+            $return_cat[]=$cat[$i];
+        }
+//
+//        for ($i =  4; $i <= 5; $i++) {
+//            $return_cat[]=$cat[$i];
+//        }
+
+        return   $return_cat;
     }
 
 
     //получаю количество записей в бд
     public function ajaxcount(Request $request){
-        $teamplate_like = Teamplate::where('title', 'LIKE', '%' . $request->name . '%')->get();
-        return $teamplate_like;
+
+     //   $teamplate_like = Teamplate::where('title', 'LIKE', '%' . $request->name . '%')->get();
+        $category_with_templates = Category::with('template')->where('title', 'LIKE', '%' . $request->name . '%')->get();
+        $cat = $category_with_templates[0]->template()->get();
+        return $cat;
     }
 
     public function refresh(Request $request)
