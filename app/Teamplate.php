@@ -8,7 +8,7 @@ class Teamplate extends Model
 {
     protected $table = 'templates';
 
-    protected $fillable = ['id','title','text','price','alias','img'];
+    protected $fillable = ['id','title','price','alias','img'];
 
 
 
