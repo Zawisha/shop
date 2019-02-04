@@ -39,3 +39,6 @@ Route::get('/user',['uses'=>'UserPanelController@execute','as'=>'user_panel']);
 //админка
 Route::get('/add',['uses'=>'AdminController@add','as'=>'add']);
 Route::post('/add',['uses'=>'AdminController@add_template','as'=>'add_template']);
+
+//добавить заказ
+Route::post('/end_order',['uses'=>'CartController@end_order','as'=>'end_order']);

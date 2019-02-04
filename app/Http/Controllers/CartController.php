@@ -6,6 +6,9 @@ use Illuminate\Http\Request;
 use App\Teamplate;
 use Illuminate\Support\Facades\Session;
 
+use  Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Auth;
+
 
 class CartController extends Controller
 {
@@ -28,8 +31,19 @@ class CartController extends Controller
                 $cart_res[]=Teamplate::where('id','=',$cart)->get();
             }
 
+
+            if(isset(Auth::user()->id))
+            {
+                $email = Auth::user()->email;
+
+            }
+            else
+            {
+                $email = 0 ;
+            }
+
                 //dd($cart_res);
-            return view('site.cart') ->with(['cart_result' => $cart_res]);
+            return view('site.cart') ->with(['cart_result' => $cart_res, 'email' =>$email]);
         }
 
         else
@@ -186,6 +200,51 @@ $for_count= Session::get('cart_list');
 
         }
 
+
+
+    }
+
+
+    //заказ после корзины
+    public function end_order(Request $request)
+    {
+
+
+
+        if (Session::has('cart_list'))
+        {
+            $cart = Session::get('cart_list');
+            $cart_id_to_db=[];
+            foreach ($cart as $cart_id)
+            {
+                $cart_id_to_db[]=$cart_id['id'];
+            }
+            $cart_id_to_db = array_unique($cart_id_to_db);
+
+ if(isset(Auth::user()->id))
+ {
+     $user = Auth::user()->id;
+ }
+
+ else
+ {
+     $user = '0';
+ }
+        //    $cart_res=[];
+            foreach ($cart_id_to_db as $cart)
+            {
+              //  $cart_res[]=Teamplate::where('id','=',$cart)->get();
+                DB::table('orders')->insert([
+                    ['user_id' => $user,'template_id' => $cart,'email' => $request ->email],
+                ]);
+            }
+
+        }
+
+        Session::forget('price');
+        Session::forget('count');
+        Session::forget('cart_list');
+        return view('site.thx_order');
 
 
     }

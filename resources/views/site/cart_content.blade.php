@@ -1,6 +1,8 @@
 <div class="zigzag-bottom"></div>
 <div class="container">
 
+
+
     @if(isset($cart_result))
 
     <div class="row">
@@ -72,10 +74,21 @@
                                 </tr>
                                 <tr>
                                     <td class="actions" colspan="6">
-                                        <input type="submit" value="Заказать" name="proceed" class="checkout-button button alt wc-forward">
+                                        {!! Form::open(['url'=>route('end_order'),'method'=>'POST','onsubmit'=>'return validatefunc()','name' => 'validateorder']) !!}
+                                        {{--{{ csrf_token() }}--}}
+                                        {!! Form::label('Введите email') !!}
+                                            {!! Form::email('email',((isset($email))&&($email!='0'))  ? $email : '') !!}
+
+
                                     </td>
                                 </tr>
+                                <tr>
+                                    <td class="actions" colspan="6">
+                                        {!! Form::submit('Заказать',['class'=>'checkout-button button alt wc-forward']) !!}
 
+                                        {!! Form::close() !!}
+                                    </td>
+                                </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -140,6 +153,16 @@
         })
 
 
+    }
+
+    function validatefunc() {
+        var email = document.forms['validateorder']['email'].value;
+
+
+        if (email.length == 0 ) {
+            return false;
+
+        }
     }
     </script>
 

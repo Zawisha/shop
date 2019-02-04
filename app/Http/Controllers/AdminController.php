@@ -7,6 +7,7 @@ use App\Teamplate;
 use Illuminate\Support\Facades\Validator;
 use  Illuminate\Support\Facades\DB;
 
+
 use App\Category;
 
 class AdminController extends Controller
