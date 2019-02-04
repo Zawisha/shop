@@ -34,3 +34,8 @@ echo(\Illuminate\Support\Facades\Auth::user()->name);
     </table>
 
     @endif
+
+{!! Form::open(['url'=>route('logout'),'method'=>'post']) !!}
+{!! Form::submit('Выйти',['id' =>'mybutton','class'=>'btn']) !!}
+
+{!! Form::close() !!}
