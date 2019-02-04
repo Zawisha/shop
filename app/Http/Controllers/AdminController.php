@@ -13,6 +13,12 @@ use App\Category;
 class AdminController extends Controller
 {
 
+    public function admin_execute()
+    {
+        return view('site.admin_panel');
+    }
+
+
     public function add()
     {
 
@@ -43,7 +49,7 @@ class AdminController extends Controller
             ['title' => $input['title'],'alias' => $input['alias'],'price' => $input['price'],'img' => $input['img']],
         ]);
 
-dd($input);
+        return redirect()->route('adminka');
 
 
 
