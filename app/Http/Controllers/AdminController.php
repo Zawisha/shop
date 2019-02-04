@@ -6,6 +6,9 @@ use Illuminate\Http\Request;
 use App\Teamplate;
 use Illuminate\Support\Facades\Validator;
 use  Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Gate;
+use Illuminate\Support\Facades\Auth;
+
 
 
 use App\Category;
@@ -15,6 +18,10 @@ class AdminController extends Controller
 
     public function admin_execute()
     {
+        if(Gate::denies('Admin_perm',Auth::user()))
+        {
+            abort(403);
+        };
         return view('site.admin_panel');
     }
 
