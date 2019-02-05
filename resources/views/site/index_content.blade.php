@@ -1,6 +1,9 @@
 <div class="zigzag-bottom"></div>
-<div class="container">
+  <div class="container">
 
+
+      <div class="row ">
+          <div class="col-12 col-sm-3 ">
 
     {!! Form::open(['url'=>route('index'),'method'=>'get']) !!}
 <span class="custom-dropdown big">
@@ -11,18 +14,22 @@
         @endforeach
     </select>
 </span>
+          </div>
+              <div class="col-12 col-sm-8 " id="find_button">
     {!! Form::submit('Найти',['id' =>'mybutton','class'=>'btn']) !!}
 
     {!! Form::close() !!}
+              </div>
+      </div>
 
 
-    <div class="row">
+      <div class="row">
+    @foreach($templates as $template)
+
         <div class="col-md-3 col-sm-6">
-
-            @foreach($templates as $template)
             <div class="single-shop-product">
                 <div class="product-upper">
-                    <a href="{{route('single',$template->id )}}"><img src="{{asset('assets/images/'.$template->img)}}" alt="photo"></a>
+                    <a href="{{route('single',$template->id )}}"><img src="{{asset('assets/images/'.$template->img)}}" alt="photo" class="index_photo"></a>
                 </div>
                 <h2><a href="{{route('single',$template->id )}}">{{ $template->title }}</a></h2>
                 <div class="product-carousel-price">
@@ -45,9 +52,10 @@
                     <a class="add_to_cart_button" target="_blank" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="{{ asset('teamplates/feast-master/index.html') }}">Просмотр</a>
                 </div>
             </div>
-           @endforeach
         </div>
+          @endforeach
     </div>
+
 
     <div class="row">
         <div class="col-md-12">
@@ -60,6 +68,9 @@
             </div>
         </div>
     </div>
+
+
+  </div>
 </div>
 
 

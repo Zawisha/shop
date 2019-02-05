@@ -41,13 +41,13 @@ class IndexResourceController extends Controller
 
             $req_find = Session::get('find');
             $category_with_templates = Category::with('template')->where('id', '=', $req_find)->get();
-            $cat = $category_with_templates[0]->template()->paginate(3);
+            $cat = $category_with_templates[0]->template()->paginate(8);
 
             return view('site.index')->with(['templates' => $cat, 'category' => $category,'cart'=>$cart_id_to_db]);
         }
         else
         {
-            $templates = Teamplate::paginate(4);
+            $templates = Teamplate::paginate(8);
             return view('site.index')->with(['templates' => $templates, 'category' => $category,'cart'=>$cart_id_to_db]);
         }
 

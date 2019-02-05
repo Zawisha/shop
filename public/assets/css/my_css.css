@@ -1,0 +1,46 @@
+    #find_button {
+    padding-top: 10px;
+}
+    .product-count {
+        /*margin-right: 20px;*/
+    }
+    /*.index_photo {*/
+        /*width: auto;*/
+        /*height: 250px;*/
+    /*}*/
+
+    @media screen and (max-width: 1199px) {
+
+        #find_button {
+            padding-left: 50px;
+            padding-bottom: 20px;
+        }
+
+    }
+
+
+    @media screen and (min-width: 768px) {
+
+        .index_photo {
+            width: auto;
+            height: 350px;
+        }
+
+    }
+
+    @media screen and (min-width: 990px) {
+
+        .index_photo {
+        width: auto;
+        height: 250px;
+        }
+
+    }
+
+    @media screen and (max-width: 768px) {
+
+        .product-count {
+            margin-top: 16px;
+            margin-right: 20px;
+        }
+    }

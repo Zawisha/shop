@@ -29,11 +29,11 @@ Route::get('/cart',['uses'=>'CartController@execute','as'=>'cart']);
 
 Route::get('/contact',['uses'=>'ContactController@execute','as'=>'contact']);
 
-Route::get('/cart',['uses'=>'CartController@execute','as'=>'cart']);
-Route::post('/add_to_cart',['uses'=>'CartController@add_one_more','as'=>'cart']);
+//Route::get('/cart',['uses'=>'CartController@execute','as'=>'cart']);
+Route::post('/add_to_cart',['uses'=>'CartController@add_one_more','as'=>'add_cart']);
 Route::post('/delete_from_cart',['uses'=>'CartController@delete_from_cart','as'=>'delete_item']);
 
-Route::get('/user',['uses'=>'UserPanelController@execute','as'=>'user_panel']);
+Route::get('/user',['uses'=>'UserPanelController@execute','middleware'=>'auth','as'=>'user_panel']);
 
 Route::post('/end_order',['uses'=>'CartController@end_order','as'=>'end_order']);
 //админка

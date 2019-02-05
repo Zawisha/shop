@@ -28,12 +28,21 @@ class AdminController extends Controller
 
     public function add()
     {
-
+        if(Gate::denies('Admin_perm',Auth::user()))
+        {
+            abort(403);
+        };
         return view('site.add');
 
     }
 
     public function add_template(Request $request){
+        if(Gate::denies('Admin_perm',Auth::user()))
+        {
+            abort(403);
+        };
+
+
         $input = $request->except('_token');
 
         $validator = Validator::make($input, [
