@@ -1,8 +1,5 @@
 
-Имя:
-<?php
-echo(\Illuminate\Support\Facades\Auth::user()->name);
-?>
+
 Мои заказы:
 @if(isset($orders))
 

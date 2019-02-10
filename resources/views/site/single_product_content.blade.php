@@ -28,7 +28,6 @@
 
                             <div class="product-option-shop">
 
-                                {!! Form::open(['url'=>route('single','1'),'method'=>'POST',  'name' => 'validateform']) !!}
 
                                 <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -39,8 +38,6 @@
                                 <div class="product-option-shop">
                                     <a class="add_to_cart_button" target="_blank" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="{{ asset('templates/'.$templates->title.'/index.html') }}">Просмотр</a>
                                 </div>
-
-                                {!! Form::close() !!}
 
                             </div>
 
@@ -94,7 +91,6 @@
         <div class="col-sm-3 col-sm-pull-9 single_search">
             <div class="single-sidebar">
                 Поиск по тегу: путешествия, музыка, лендинг и др.
-                {!! Form::open(['url'=>route('single','1'),'method'=>'POST',  'name' => 'validateform']) !!}
 
                 {!! Form::text('search_text','',['id' => 'name','placeholder' => 'Поиск']) !!}<br>
                 <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -105,7 +101,6 @@
                 {!!  Form::button('prev',['id' => 'prev','onClick'=>'prevMessage()']);!!}
 
 
-                {!! Form::close() !!}
 
             </div>
 
