@@ -36,6 +36,9 @@
 
                                 {!!  Form::button('В корзину',['class' => 'add_to_cart_button','id' => 'add_to_cart_button','onClick'=>'add_to_Cart() ']);!!}
 
+                                <div class="product-option-shop">
+                                    <a class="add_to_cart_button" target="_blank" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="{{ asset('templates/'.$templates->title.'/index.html') }}">Просмотр</a>
+                                </div>
 
                                 {!! Form::close() !!}
 
@@ -372,11 +375,9 @@
                var categories = document.getElementsByClassName('product-inner-category');
                categories[0].innerHTML = category_all;
 
-               //передаю массив с объектами категорий
-             // console.log(response[0]['categories']);
-
-
-             //  similar_template(response[0]['categories']);
+               var show_template = document.getElementsByClassName('add_to_cart_button');
+               {{ asset('templates/'.$temp->title.'/index.html') }}
+               show_template[1].href = '../templates/'+ response[0]['title'] + '/index.html';
 
            }
        })

@@ -1,4 +1,11 @@
 
+.index_photo:hover {
+
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+   }
+
 
     #myList {
     margin-right: 60px;
@@ -10,7 +17,15 @@
 }
     .img_search {
         cursor:pointer;
+
     }
+
+.img_search:hover {
+    cursor:pointer;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
 
 
     @media screen and (min-width: 1199px) {
@@ -50,10 +65,7 @@
 
         }
 
-        .index_photo {
-            width: auto;
-            height: 200px;
-        }
+
         #myList {
             margin-right: 60px;
         }
@@ -76,7 +88,7 @@
 
         .index_photo {
             width: auto;
-            height: 350px;
+            height: 240px;
         }
 
         .product-f-image {

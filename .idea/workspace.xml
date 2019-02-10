@@ -2,670 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f101780-0808-4649-96ce-58c1972a2eda" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SingleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SingleController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/css/my_css.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/my_css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/blog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/blog_single.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/images/about-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/images/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/images/blog-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/images/blog-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/images/blog-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/images/blog-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/images/blog_single-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/images/footer-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/images/footer-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/images/item-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/images/item-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/images/item-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/images/item-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/images/item-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/images/item-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/images/item-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/images/item-8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/images/person-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/images/person-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/js/animate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/js/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-master/recipes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/css/normalize.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/js/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/js/jquery-1.11.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/js/jquery.nav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/scripts/shAutoloader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/scripts/shBrushAS3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/scripts/shBrushAppleScript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/scripts/shBrushBash.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/scripts/shBrushCSharp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/scripts/shBrushColdFusion.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/scripts/shBrushCpp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/scripts/shBrushCss.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/scripts/shBrushDelphi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/scripts/shBrushDiff.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/scripts/shBrushErlang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/scripts/shBrushGroovy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/scripts/shBrushJScript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/scripts/shBrushJava.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/scripts/shBrushJavaFX.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/scripts/shBrushPerl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/scripts/shBrushPhp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/scripts/shBrushPlain.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/scripts/shBrushPowerShell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/scripts/shBrushPython.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/scripts/shBrushRuby.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/scripts/shBrushSass.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/scripts/shBrushScala.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/scripts/shBrushSql.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/scripts/shBrushVb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/scripts/shBrushXml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/scripts/shCore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/scripts/shLegacy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/styles/shCore.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/styles/shCoreDefault.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/styles/shCoreDjango.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/styles/shCoreEclipse.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/styles/shCoreEmacs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/styles/shCoreFadeToGrey.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/styles/shCoreMDUltra.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/styles/shCoreMidnight.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/styles/shCoreRDark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/styles/shThemeDefault.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/styles/shThemeDjango.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/styles/shThemeEclipse.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/styles/shThemeEmacs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/styles/shThemeFadeToGrey.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/styles/shThemeMDUltra.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/styles/shThemeMidnight.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/Sparsh Architecture - Doc/syntax-highlighter/styles/shThemeRDark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/blog-single.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/blog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/css/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/elements.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/about.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog/ads-banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog/blog-home-banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog/c1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog/c2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog/c3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog/c4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog/c5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog/c6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog/cat-widget1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog/cat-widget2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog/cat-widget3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog/feature-img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog/feature-img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog/feature-img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog/feature-img4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog/feature-img5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog/next.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog/post-img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog/post-img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog/pp1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog/pp2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog/pp3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog/pp4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog/prev.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog/s-img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog/user-info.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/blog5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/elements/a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/elements/a2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/elements/d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/elements/disabled-check.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/elements/disabled-radio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/elements/f1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/elements/f2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/elements/f3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/elements/f4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/elements/f5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/elements/f6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/elements/f7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/elements/f8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/elements/g1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/elements/g2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/elements/g3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/elements/g4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/elements/g5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/elements/g6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/elements/g7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/elements/g8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/elements/primary-check.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/elements/primary-radio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/elements/success-check.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/elements/success-radio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/elements/user1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/elements/user2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/footer-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/hero-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/hero-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/hero-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/portfolio1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/portfolio2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/portfolio3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/portfolio4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/project-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/img/testimonial.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/projects.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/scss/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/scss/themes/_about.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/scss/themes/_blog.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/scss/themes/_breadcrumb.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/scss/themes/_btn.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/scss/themes/_contact.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/scss/themes/_elements.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/scss/themes/_footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/scss/themes/_form.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/scss/themes/_global.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/scss/themes/_header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/scss/themes/_hero.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/scss/themes/_mixin.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/scss/themes/_overview.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/scss/themes/_section-intro.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/scss/themes/_service.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/scss/themes/_slider.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/scss/themes/_social-icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/scss/themes/_tips.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/scss/themes/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/service.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/bootstrap/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/bootstrap/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/flat-icon/Flaticon.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/flat-icon/Flaticon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/flat-icon/Flaticon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/flat-icon/Flaticon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/flat-icon/_flaticon.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/flat-icon/backup.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/flat-icon/debug.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/flat-icon/flaticon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/flat-icon/flaticon.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/flat-icon/license/license.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/fonts/CircularStd-Black.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/fonts/CircularStd-BlackItalic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/fonts/CircularStd-Bold.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/fonts/CircularStd-BoldItalic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/fonts/CircularStd-Book.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/fonts/CircularStd-BookItalic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/fonts/CircularStd-Medium.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/fonts/CircularStd-MediumItalic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/iconfont/MaterialIcons-Regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/iconfont/MaterialIcons-Regular.ijmap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/iconfont/MaterialIcons-Regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/iconfont/MaterialIcons-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/iconfont/MaterialIcons-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/iconfont/MaterialIcons-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/iconfont/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/iconfont/codepoints" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/iconfont/debug.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/iconfont/material-icons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/jquery/jquery-3.2.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/owl-carousel/owl.carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/owl-carousel/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/owl-carousel/owl.theme.default.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/scripts/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/scripts/Vendor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/scripts/modules/Slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/simplyCountdown/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/simplyCountdown/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/simplyCountdown/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/simplyCountdown/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/simplyCountdown/css/demo-only/prism.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/simplyCountdown/css/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/simplyCountdown/css/less/demo.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/simplyCountdown/css/less/simplyCountdown.theme.default.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/simplyCountdown/css/less/simplyCountdown.theme.losange.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/simplyCountdown/css/simplyCountdown.theme.custom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/simplyCountdown/css/simplyCountdown.theme.default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/simplyCountdown/css/simplyCountdown.theme.losange.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/simplyCountdown/dev/simplyCountdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/simplyCountdown/dist/simplyCountdown.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/simplyCountdown/gulpfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/simplyCountdown/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/simplyCountdown/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/Italic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/agenda.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/alarm-clock.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/alert.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/align-center.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/align-justify.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/align-left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/align-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/anchor.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/android.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/angle-double-down.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/angle-double-left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/angle-double-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/angle-double-up.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/angle-down.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/angle-left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/angle-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/angle-up.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/announcement.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/apple.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/archive.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/arrow-circle-down.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/arrow-circle-left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/arrow-circle-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/arrow-circle-up.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/arrow-down.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/arrow-left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/arrow-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/arrow-top-left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/arrow-top-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/arrow-up.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/arrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/arrows-corner.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/arrows-horizontal.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/arrows-vertical.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/back-left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/back-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/bag.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/bar-chart-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/bar-chart.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/basketball.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/bell.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/blackboard.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/bolt-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/bolt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/book.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/bookmark-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/bookmark.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/briefcase.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/brush-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/brush.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/calendar.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/camera.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/car.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/check-box.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/check.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/clip.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/clipboard.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/close.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/cloud-down.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/cloud-up.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/cloud.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/comment-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/comment.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/comments-smiley.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/comments.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/control-backward.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/control-eject.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/control-forward.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/control-pause.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/control-play.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/control-record.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/control-shuffle.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/control-skip-backward.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/control-skip-forward.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/control-stop.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/credit-card.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/crown.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/css3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/cup.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/cut.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/dashboard.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/desktop.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/direction-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/direction.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/download.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/dribbble.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/dropbox-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/dropbox.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/drupal.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/email.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/envelope.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/eraser.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/exchange-vertical.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/export.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/eye.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/face-sad.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/face-smile.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/facebook.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/file.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/files.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/filter.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/flag-alt-2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/flag-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/flag.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/flickr-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/flickr.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/folder.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/fullscreen.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/gallery.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/game.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/gift.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/github.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/google.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/hand-drag.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/hand-open.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/hand-point-down.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/hand-point-left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/hand-point-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/hand-point-up.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/hand-stop.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/harddrive.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/harddrives.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/headphone-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/headphone.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/heart-broken.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/heart.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/help-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/help.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/home.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/html5.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/hummer.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/id-badge.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/image.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/import.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/infinite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/info-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/info.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/ink-pen.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/instagram.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/joomla.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/jsfiddle.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/key.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layers-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layers.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-accordion-list.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-accordion-merged.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-accordion-separated.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-column2-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-column2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-column3-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-column3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-column4-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-column4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-cta-btn-left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-cta-btn-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-cta-center.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-cta-left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-cta-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-grid2-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-grid2-thumb.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-grid2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-grid3-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-grid3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-grid4-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-grid4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-line-solid.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-list-large-image.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-list-post.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-list-thumb-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-list-thumb.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-media-center-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-media-center.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-media-left-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-media-left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-media-overlay-alt-2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-media-overlay-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-media-overlay.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-media-right-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-media-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-menu-full.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-menu-separated.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-menu-v.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-menu.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-placeholder.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-sidebar-2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-sidebar-left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-sidebar-none.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-sidebar-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-slider-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-slider.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-tab-min.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-tab-v.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-tab-window.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-tab.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-width-default-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-width-default.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout-width-full.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/layout.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/light-bulb.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/line-dashed.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/line-dotted.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/line-double.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/link.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/linkedin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/linux.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/list-ol.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/list.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/location-arrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/location-pin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/lock.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/loop.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/magnet.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/map-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/map.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/marker-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/marker.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/medall-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/medall.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/menu-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/menu.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/microphone-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/microphone.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/microsoft-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/microsoft.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/minus.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/mobile.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/money.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/more-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/more.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/mouse-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/mouse.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/music-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/music.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/na.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/new-window.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/notepad.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/package.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/paint-bucket.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/paint-roller.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/palette.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/panel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/paragraph.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/pencil-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/pencil-alt2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/pencil.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/pie-chart.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/pin-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/pin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/pin2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/pinterest-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/pinterest.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/plug.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/plus.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/power-off.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/printer.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/pulse.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/quote-left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/quote-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/receipt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/reddit.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/reload.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/rocket.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/rss-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/rss.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/ruler-alt-2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/ruler-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/ruler-pencil.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/ruler.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/save-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/save.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/search.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/server.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/settings.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/share-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/share.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/sharethis-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/sharethis.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/shield.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/shift-left-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/shift-left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/shift-right-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/shift-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/shine.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/shopping-cart-full.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/shopping-cart.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/shortcode.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/signal.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/skype.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/slice.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/smallcap.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/soundcloud.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/split-h.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/split-v-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/split-v.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/spray.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/stack-overflow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/stamp.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/star.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/stats-down.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/stats-up.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/support.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/tablet.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/tag.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/target.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/text.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/themify-favicon-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/themify-favicon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/themify-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/thought.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/thumb-down.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/thumb-up.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/ticket.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/time.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/timer.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/trash.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/trello.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/truck.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/tumblr-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/tumblr.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/twitter-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/twitter.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/underline.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/unlink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/unlock.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/upload.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/uppercase.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/user.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/vector.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/video-camera.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/video-clapper.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/view-grid.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/view-list-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/view-list.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/vimeo-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/vimeo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/volume.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/wallet.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/wand.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/wheelchair.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/widget-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/widget.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/widgetized.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/window.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/wordpress.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/world.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/write.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/yahoo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/youtube.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/zip.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/zoom-in.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/SVG/zoom-out.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/Themify IconFonts 5-23-2014.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/demo-files/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/fonts/themify.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/fonts/themify.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/fonts/themify.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/fonts/themify.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/ie7/ie7.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/ie7/ie7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/feast-sparsh/vendor/themify-icons/themify-icons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/cart.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/checkout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/css/owl.carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/css/responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/img/brand1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/img/brand2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/img/brand3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/img/brand4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/img/brand5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/img/brand6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/img/crossword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/img/h4-slide.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/img/h4-slide2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/img/h4-slide3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/img/h4-slide4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/img/h4-slide7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/img/product-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/img/product-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/img/product-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/img/product-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/img/product-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/img/product-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/img/product-thumb-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/img/product-thumb-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/img/product-thumb-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/img/product-thumb-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/js/bxslider.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/js/jquery.easing.1.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/js/jquery.sticky.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/js/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/js/script.slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/shop.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/single-product.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/ucommerce-screen.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/teamplates/ustora/ustora.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/site/index_content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/index_content.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/site/single_product_content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/single_product_content.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -698,20 +35,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="single_product_content.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="single_product_content.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/site/single_product_content.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="198" column="63" selection-start-line="198" selection-start-column="55" selection-end-line="198" selection-end-column="63" />
+            <state relative-caret-position="413">
+              <caret line="385" lean-forward="true" selection-start-line="385" selection-end-line="385" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my_css.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index_content.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/site/index_content.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="52" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my_css.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/assets/css/my_css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="114" column="29" lean-forward="true" selection-start-line="114" selection-start-column="29" selection-end-line="114" selection-end-column="29" />
+            <state relative-caret-position="238">
+              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -727,7 +73,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>AuthenticatesAndRegistersUsers</find>
       <find>return view</find>
       <find>form</find>
       <find>button</find>
@@ -740,23 +85,24 @@
       <find>block</find>
       <find>collapse</find>
       <find>hid_id_title</find>
-      <find>add_to_cart_button</find>
       <find>id_title</find>
       <find>name</find>
       <find>owl-nav</find>
       <find>similar_template_img</find>
-      <find>index_photo</find>
       <find>similar</find>
       <find>del_similar_elem</find>
       <find>product-inner-category</find>
       <find>getMessage</find>
       <find>title_id</find>
-      <find>refreshtem</find>
       <find>img_search</find>
       <find>get_count_message</find>
       <find>countelem</find>
       <find>my_list</find>
+      <find>index_photo</find>
       <find>console</find>
+      <find>myList</find>
+      <find>refreshtem</find>
+      <find>add_to_cart_button</find>
     </findStrings>
     <dirStrings>
       <dir>C:\xampp\htdocs\shop</dir>
@@ -767,13 +113,11 @@
       <dir>C:\xampp\htdocs\shop\public\assets</dir>
       <dir>C:\xampp\htdocs\shop\resources</dir>
       <dir>C:\xampp\htdocs\shop\public</dir>
+      <dir>C:\xampp\htdocs\shop\public\css</dir>
     </dirStrings>
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="git push shop master" />
-      <command text="php artisan make:model  Roles -m" />
-      <command text="php artisan make:model  Role -m" />
       <command text="php artisan make:migration CreatePermissionsTable  --create=permissions" />
       <command text="php artisan make:migration CreatePermissionsRoleTable  --create=permissions" />
       <command text="php artisan migrate" />
@@ -796,10 +140,16 @@
       <command text="git add ." />
       <command text="git commit -m &quot;edit index template&quot;" />
       <command text="git push shop master" />
+      <command text="git add ." />
+      <command text="git commit -m &quot;edit single page&quot;" />
+      <command text="git push shop master" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -853,8 +203,8 @@
         <option value="$PROJECT_DIR$/resources/views/site/footer_top.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/site/index_content.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/SingleController.php" />
-        <option value="$PROJECT_DIR$/resources/views/site/single_product_content.blade.php" />
         <option value="$PROJECT_DIR$/public/assets/css/my_css.css" />
+        <option value="$PROJECT_DIR$/resources/views/site/single_product_content.blade.php" />
       </list>
     </option>
   </component>
@@ -966,8 +316,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-31" />
+    <option name="y" value="160" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -989,20 +339,7 @@
             <path>
               <item name="shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -1065,37 +402,37 @@
       <workItem from="1549510601448" duration="11091000" />
       <workItem from="1549595968618" duration="18110000" />
       <workItem from="1549697307964" duration="1195000" />
-      <workItem from="1549783141180" duration="6054000" />
+      <workItem from="1549783141180" duration="9275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="279394000" />
+    <option name="totallyTimeSpent" value="282615000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17395833" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" weight="0.2791932" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="7" sideWeight="0.49947917" visible="true" weight="0.38322717" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17395833" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="7" sideWeight="0.49947917" visible="true" weight="0.38322717" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1438,10 +775,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/index_content.blade.php">
+    <entry file="file://$PROJECT_DIR$/public/assets/css/my_css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="238">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1452,17 +789,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/single_product_content.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/site/index_content.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="198" column="63" selection-start-line="198" selection-start-column="55" selection-end-line="198" selection-end-column="63" />
+        <state relative-caret-position="280">
+          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="52" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/css/my_css.css">
+    <entry file="file://$PROJECT_DIR$/resources/views/site/single_product_content.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="114" column="29" lean-forward="true" selection-start-line="114" selection-start-column="29" selection-end-line="114" selection-end-column="29" />
+        <state relative-caret-position="413">
+          <caret line="385" lean-forward="true" selection-start-line="385" selection-end-line="385" />
         </state>
       </provider>
     </entry>
