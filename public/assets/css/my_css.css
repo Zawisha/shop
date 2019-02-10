@@ -1,13 +1,66 @@
+
+
+    #myList {
+    margin-right: 60px;
+        padding-left: 0px;
+}
+
     #find_button {
     padding-top: 10px;
 }
-    .product-count {
-        /*margin-right: 20px;*/
+    .img_search {
+        cursor:pointer;
     }
-    /*.index_photo {*/
-        /*width: auto;*/
-        /*height: 250px;*/
-    /*}*/
+
+
+    @media screen and (min-width: 1199px) {
+
+        .product-f-image {
+            width: auto;
+            height: 300px;
+        }
+
+        .single_photo {
+            width: auto;
+            height: 300px;
+        }
+
+        .img_search {
+            width: auto;
+            height: 120px;
+        }
+
+    }
+
+    @media screen and (min-width: 992px) {
+
+        .product-f-image {
+            width: auto;
+            height: 320px;
+        }
+
+        .single_photo {
+            width: auto;
+            height: 320px;
+        }
+
+        .img_search {
+            width: auto;
+            height: 120px;
+
+        }
+
+        .index_photo {
+            width: auto;
+            height: 200px;
+        }
+        #myList {
+            margin-right: 60px;
+        }
+
+    }
+
+
 
     @media screen and (max-width: 1199px) {
 
@@ -26,16 +79,35 @@
             height: 350px;
         }
 
-    }
-
-    @media screen and (min-width: 990px) {
-
-        .index_photo {
-        width: auto;
-        height: 200px;
+        .product-f-image {
+            width: auto;
+            height: 250px;
         }
 
+        .single_photo {
+            width: auto;
+            height: 250px;
+        }
+
+        .img_search {
+            width: auto;
+            height: 140px;
+
+        }
+        #myList {
+            margin-right: 10px;
+        }
+
+        .title_id   {
+
+            padding-top: 15px;
+            padding-bottom: 10px;
+            font-weight:bold;
+            cursor:pointer;
+
+        }
     }
+
 
     @media screen and (max-width: 768px) {
 
@@ -43,4 +115,32 @@
             margin-top: 16px;
             margin-right: 20px;
         }
+
+        .single_search {
+
+            padding-top: 20px;
+
+        }
+
+        .single_photo {
+            width: auto;
+            height: 300px;
+        }
+
+        .product-f-image {
+            width: auto;
+            height: 300px;
+        }
+
+        .title_id   {
+
+            padding-top: 15px;
+            padding-bottom: 10px;
+            font-weight:bold;
+            cursor:pointer;
+            font-size: 20px
+
+        }
+
+
     }

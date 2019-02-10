@@ -28,7 +28,58 @@ class SingleController extends Controller
 
         if ($request->isMethod('get')) {
             $templates = Teamplate::find($id);
-            return view('site.single_product')->with(['templates' => $templates]);
+
+            //вытаскиваю категории для похожих шаблонов
+            $template = Teamplate::with('categories')->where('id','=',$id)->get();
+
+
+            //выборка похожих по категориям
+
+            $cat=[];
+            foreach ($template[0]['categories'] as $req)
+            {
+                $category = Category::with('template') ->where('id' ,'=' ,$req['id']) ->get();
+                $cat[]=$category[0]->template;
+            }
+
+            $return_cat =[];
+            $stop = '0';
+
+            foreach ($cat as $ret_cat) {
+                foreach ($ret_cat as $r_cat){
+
+                    //проверка на уникальность записей в массиве $return_cat[]
+
+                    $uniq_flag = '0';
+                    foreach ($return_cat as $uniq_return_cat)
+                    {
+                        if($uniq_return_cat['id']==$r_cat['id'])
+                        {
+
+                            $uniq_flag = '1';
+                        }
+                    }
+                    if($uniq_flag == '0')
+                    {
+                        $return_cat[] =$r_cat;
+                    }
+                  //  $return_cat = array_unique($return_cat);
+                    if(count($return_cat)=='6')
+                    {
+                        $stop='1';
+                        break;
+                    }
+
+                }
+                if($stop=='1')
+                {
+                    break;
+                }
+            }
+
+          //  dd($return_cat);
+
+            return view('site.single_product')->with(['templates' => $templates, 'similar_temp' => $return_cat]);
                         }
     }
 
@@ -39,7 +90,15 @@ class SingleController extends Controller
     //    $teamplate_like = Teamplate::where('title', 'LIKE', '%' . $request->name . '%')->offset($request->hidden_number*4)->limit(4)->get();
 
         $category_with_templates = Category::with('template')->where('title', 'LIKE', '%' . $request->name . '%')->get();
+//        return count($category_with_templates);
+        if(count($category_with_templates)=='0')
+        {
+            return $category_with_templates;
+        }
         $cat = $category_with_templates[0]->template()->get();
+
+
+
         $return_cat=[];
 
         $start_count = ($request->hidden_number)*4;

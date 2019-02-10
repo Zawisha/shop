@@ -49,7 +49,7 @@
 
                 </div>
                 <div class="product-option-shop">
-                    <a class="add_to_cart_button" target="_blank" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="{{ asset('teamplates/feast-master/index.html') }}">Просмотр</a>
+                    <a class="add_to_cart_button" target="_blank" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="{{ asset('templates/'.$template->title.'/index.html') }}">Просмотр</a>
                 </div>
             </div>
         </div>
