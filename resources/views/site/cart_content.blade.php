@@ -77,7 +77,7 @@
                                         {!! Form::open(['url'=>route('end_order'),'method'=>'POST','onsubmit'=>'return validatefunc()','name' => 'validateorder']) !!}
                                         {{--{{ csrf_token() }}--}}
                                         {!! Form::label('Введите email') !!}
-                                            {!! Form::email('email',((isset($email))&&($email!='0'))  ? $email : '') !!}
+                                            {!! Form::email('email',((isset($email))&&($email!='0'))  ? $email : '',array('id' => 'email_cart') ) !!}
 
 
                                     </td>
@@ -157,12 +157,19 @@
 
     function validatefunc() {
         var email = document.forms['validateorder']['email'].value;
-
+         var cart = document.getElementById('email_cart');
 
         if (email.length == 0 ) {
+            cart.style.border="2px solid red";
+            setTimeout(hide_alert,4000);
             return false;
 
         }
+    }
+
+    function hide_alert() {
+        var cart = document.getElementById('email_cart');
+        cart.style.border="1px solid black";
     }
     </script>
 

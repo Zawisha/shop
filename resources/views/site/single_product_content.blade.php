@@ -97,7 +97,6 @@
                 {!! Form::open(['url'=>route('single','1'),'method'=>'POST',  'name' => 'validateform']) !!}
 
                 {!! Form::text('search_text','',['id' => 'name','placeholder' => 'Поиск']) !!}<br>
-                {{--{!! Form::submit('поиск') !!}--}}
                 <meta name="csrf-token" content="{{ csrf_token() }}">
                 <input type="hidden" name="hid_number" id="hidden_number" value="0">
                 <input type="hidden" name="max_hid_number" id="max_hidden_number" value="0">
@@ -174,28 +173,6 @@
                 }
 
                     response.forEach(function (entry) {
-                        //  console.log(entry);
-
-                        // var newItem0 = document.createElement("LI");
-                        // //  newItem.append(' <a href="' + '1234' + '" title="' + '123' + '">Read more</a>');
-                        // var textnode = document.createTextNode(entry['price']);
-                        // newItem0.appendChild(textnode);
-                        // var list = document.getElementById("myList");
-                        // list.insertBefore(newItem0, list.childNodes[0]);
-                        //
-                        // var newItem = document.createElement("LI");
-                        // var textnode = document.createTextNode(entry['title']);
-                        // newItem.setAttribute("class", 'title_id');
-                        //
-                        // newItem.appendChild(textnode);
-                        // var list = document.getElementById("myList");
-                        // list.insertBefore(newItem, list.childNodes[1]);
-                        //
-                        // var newimg = document.createElement("img");
-                        // newimg.setAttribute("src", "/assets/images/" + entry['img']);
-                        // var list = document.getElementById("myList");
-                        // list.insertBefore(newimg, list.childNodes[2]);
-
 
                         var newItem = document.createElement("div");
                         var textnode = document.createTextNode(entry['title']);
@@ -216,7 +193,7 @@
 
                     });
 
-           // document.getElementById("hidden_number").value++;
+
 
 //Делаю кликабельным название
                 var all = document.getElementsByClassName('title_id');
@@ -312,7 +289,6 @@
                         'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
                     },
                 success: function (response) {
-                  //  console.log(response);
                     var max_number_trunc = response.length;
                     //выделяю целую часть
                     max_number_trunc = max_number_trunc / 4;
@@ -349,7 +325,6 @@
            success: function (response) {
 
                //главный шаблон страницы
-               //  console.log(response);
                var main_img = document.getElementById('mainImage');
                main_img.setAttribute("src","/assets/images/"+response[0]['img']);
 
@@ -396,8 +371,6 @@ function similar_template(category_template) {
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
             },
         success: function (response) {
-
-        //   del_similar_elem();
 
             response.forEach(function(entry) {
 
@@ -460,8 +433,6 @@ function similar_template(category_template) {
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
                 },
             success: function (response) {
-
-                // console.log(response);
 
                 var cart_price = document.getElementsByClassName('cart-amunt');
                 cart_price[0].innerHTML ='$ '+ response[1];
