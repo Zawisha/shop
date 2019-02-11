@@ -1,5 +1,14 @@
 
+<div class="container">
+    <div class="row ">
 
+        @if($perm == '1')
+            <a href={{route('adminka')}}><button type="button" class="btn btn-primary btn-lg btn-block">Админка</button></a>
+            @endif
+
+    </div>
+
+    <div class="row ">
 Мои заказы:
 @if(isset($orders))
 
@@ -36,3 +45,5 @@
 {!! Form::submit('Выйти',['id' =>'mybutton','class'=>'btn']) !!}
 
 {!! Form::close() !!}
+    </div>
+</div>

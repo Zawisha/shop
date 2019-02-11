@@ -4,6 +4,7 @@
             <div class="user-menu">
                 <ul>
                     @if(  Auth::user() )
+                    
                     <li><a href="{{ route('user_panel') }}"><i class="fa fa-user"></i> Мой аккаунт</a></li>
                         @else
                         <li><a href="{{ route('login') }}"><i class="fa fa-user"></i> Войти</a></li>

@@ -36,6 +36,7 @@ Route::post('/delete_from_cart',['uses'=>'CartController@delete_from_cart','as'=
 Route::get('/user',['uses'=>'UserPanelController@execute','middleware'=>'auth','as'=>'user_panel']);
 
 Route::post('/end_order',['uses'=>'CartController@end_order','as'=>'end_order']);
+Route::get('/end_order',['uses'=>'CartController@execute','as'=>'cart']);
 //админка
 
 

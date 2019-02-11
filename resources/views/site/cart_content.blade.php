@@ -155,9 +155,15 @@
 
     }
 
+
     function validatefunc() {
         var email = document.forms['validateorder']['email'].value;
          var cart = document.getElementById('email_cart');
+        var price = document.getElementById('total_price');
+         if(price.innerHTML == '$ 0')
+         {
+             return false;
+         }
 
         if (email.length == 0 ) {
             cart.style.border="2px solid red";
@@ -165,6 +171,9 @@
             return false;
 
         }
+
+
+
     }
 
     function hide_alert() {

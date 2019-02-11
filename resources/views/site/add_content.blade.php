@@ -1,5 +1,8 @@
 
 
+<div class="container">
+    <div class="row ">
+
 @if(isset($errors)&&(!empty($errors)))
     <div class="alert-danger" >
         <ul>
@@ -31,6 +34,9 @@
 {!! Form::submit('Добавить',['id' =>'mybutton','class'=>'btn']) !!}
 {!! Form::close() !!}
 
+
+    </div>
+</div>
 
 <script >
 
